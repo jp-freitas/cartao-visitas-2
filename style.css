@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    border: none;
+    background: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+    height: 500px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cabecalho-cartao {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 10px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6);
+    border-radius: 12px 0px 0px 12px;
+}
+
+.imagem-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+}
+
+.nome-perfil{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.cargo-perfil{
+    font-size: 18px;
+    margin-bottom: 8px; 
+}
+
+.especialidade-perfil{
+    font-size: 14px;
+}
+
+.corpo-cartao {
+    width: 100%;
+    padding: 15px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.corpo-titulo {
+    font-size: 18px;
+    font-weight: 600;
+    color: #6366f1;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.contact-list {
+    width: 100%;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 12px;
+    background-color: #f3f4f6;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.contact-link:hover {
+    color: #6366f1;
+}
+
+.contact-text {
+    color: #6b7280;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.icon {
+    color: #6366f1;
+    font-size: 18px;
+    margin-right: 12px;
+    width: 24px;
+    text-align: center;
+}
+
+.contact-link {
+    color: #1f2937;
+}
+
+.contact-link:hover {
+    color: #6366f1;
+}
+
+.social-media {
+  display: flex;
+  justify-content:center;
+  margin-bottom: 30px;
+  gap: 15px;
+}
+
+.social-titulo {
+    font-size: 18px;
+    font-weight: 600;
+    color: #6366f1;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.social-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #e5e7eb;
+  color: #1f2937;
+}
+
+.social-item.linkedin:hover {
+  background-color: #0077b5;
+  color: white;
+}
+
+.social-item.twitter:hover {
+  background-color: #000000;
+  color: white;
+}
+
+.social-item.instagram:hover {
+  background: #833ab4;
+  background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+  color: white;
+}
+
+.social-item.github:hover {
+  background-color: #000000;
+  color: white;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
